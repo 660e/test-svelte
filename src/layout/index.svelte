@@ -8,6 +8,7 @@
     <a href="/form" use:link>Form</a>
     <a href="/lifecycle" use:link>Lifecycle</a>
     <a href="/stores" use:link>Stores</a>
+    <a href="/tweened" use:link>Tweened</a>
   </aside>
   <div class="flex-1 p-4">
     <slot />
