@@ -7,6 +7,7 @@
     <a href="/" use:link>Home</a>
     <a href="/form" use:link>Form</a>
     <a href="/lifecycle" use:link>Lifecycle</a>
+    <a href="/stores" use:link>Stores</a>
   </aside>
   <div class="flex-1 p-4">
     <slot />
