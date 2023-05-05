@@ -1,11 +1,11 @@
-import About from '../pages/about.svelte';
 import Form from '../pages/form.svelte';
 import Home from '../pages/home.svelte';
+import Lifecycle from '../pages/lifecycle.svelte';
 
 const routes = {
   '/': Home,
   '/form': Form,
-  '/about': About
+  '/lifecycle': Lifecycle
 };
 
 export default routes;

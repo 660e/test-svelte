@@ -26,6 +26,10 @@
     count += 1;
     promise = getRandomUser();
   };
+
+  function confirm(e) {
+    console.log(e.detail);
+  }
 </script>
 
 <div class="space-y-4">
@@ -57,5 +61,5 @@
   {/await}
 
   <ChildComponent message="{count}" />
-  <ChildComponent />
+  <ChildComponent on:confirm="{confirm}" />
 </div>
