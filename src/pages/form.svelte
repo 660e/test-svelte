@@ -42,3 +42,11 @@
     <div>{b}</div>
   </div>
 </div>
+
+<div class="mt-10">
+  <div>svelte:self 组件自调用</div>
+  <div>svelte:component 动态组件</div>
+  <div>svelte:window 绑定/插入到window</div>
+  <div>svelte:body 绑定/插入到document.body</div>
+  <div>svelte:head 绑定/插入到head</div>
+</div>

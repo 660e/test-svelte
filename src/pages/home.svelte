@@ -62,4 +62,9 @@
 
   <ChildComponent message="{count}" />
   <ChildComponent on:confirm="{confirm}" />
+  <ChildComponent>
+    <div slot="name">name</div>
+  </ChildComponent>
+
+  <div class:bg-black="{count === 3}" class:text-white="{count === 3}">Classes</div>
 </div>

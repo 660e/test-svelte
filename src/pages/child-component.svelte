@@ -17,4 +17,5 @@
   {#if message === 0}
   <button on:click="{handleEmit}">emit +1</button>
   {/if}
+  <slot name="name" />
 </div>
